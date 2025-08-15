@@ -1,0 +1,61 @@
+﻿namespace Condicionales
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Condicionales simples
+            string nombrePersona1 = "";
+            float sueldo = 0;
+
+            Console.WriteLine("Ingrese su nombre, usuario: ");
+            nombrePersona1 = Console.ReadLine(); //lo que se ponga en consola se lee como un string
+
+            Console.WriteLine("Ingrese su sueldo, usuario; ");
+            sueldo = Convert.ToInt32(Console.ReadLine());
+
+            if (sueldo > 3000)
+            {
+                Console.WriteLine($"usuario {nombrePersona1}, tu sueldo es mayor a 3000, por ende, debes abonar impuestos.");
+            }
+
+            else
+            {
+                Console.WriteLine($"usuario {nombrePersona1}, tu sueldo es menor que 3000, por ende, no debes abonar impuestos");
+            }
+
+            Console.WriteLine("----------------------------------------------");
+            //2. Crea un algoritmo que lea la edad de un usuario, si el usuario es mayor de 18, se debe mostrar el siguiente mensaje: “Bienvenido a mi sitio web”. 
+
+            float edad = 0;
+
+            Console.WriteLine("Ingrese su edad antes de entrar al sitio: ");
+            edad = Convert.ToInt32(Console.ReadLine());
+
+            if (edad < 18 && edad > 0)
+            {
+                Console.WriteLine("No estas permitido a entrar al sitio, eres menor de edad");
+            }
+
+            else if (edad > 18 && edad < 100)
+            {
+                Console.WriteLine("Bienvenido a mi sitio web");
+            }
+
+            else
+            {
+                Console.WriteLine("ingresa una edad válida porfavor");
+            }
+
+            Console.WriteLine("----------------------------------------------");
+
+            /* Crear un algoritmo que permita ingresar el nombre y el sueldo de una persona, si el sueldo supera los 3000 pesos mostrar el mensaje en pantalla con el nombre de la persona, indicando que debe abonar impuestos. De lo contrario mostrar el mensaje “Persona exenta de impuestos”.*/
+
+            string nombrePersona = "";
+            int sueldo1 = 0;
+
+            Console.WriteLine("Usuario, ingrese su nombre: ");
+            Console.ReadLine();
+        }
+    }
+}
