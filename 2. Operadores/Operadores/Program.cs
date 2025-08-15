@@ -44,14 +44,6 @@
             int numero13 = --numero1;//decremento
             Console.WriteLine(numero13);
 
-            /*
-            --numeroMath4;
-            Console.Write(numeroMath4);
-
-            --numero1;
-            Console.WriteLine(numero1);
-            */
-
             numero2 += 125; //asignación positiva
             Console.WriteLine(numero2);
 
