@@ -34,7 +34,7 @@
                 }
                 else
                 {
-                    Console.WriteLine("El número:" + num3 + " es el mayor");
+                    Console.WriteLine("El número:" + num3 + " es el mayor"); 
                 }
             }
 
