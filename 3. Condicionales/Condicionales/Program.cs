@@ -16,12 +16,12 @@
 
             if (sueldo > 3000)
             {
-                Console.WriteLine($"usuario {nombrePersona1}, tu sueldo es mayor a 3000, por ende, debes abonar impuestos.");
+               Console.WriteLine($"usuario {nombrePersona1}, tu sueldo es mayor a 3000, por ende, debes abonar impuestos.");
             }
 
             else
             {
-                Console.WriteLine($"usuario {nombrePersona1}, tu sueldo es menor que 3000, por ende, no debes abonar impuestos");
+               Console.WriteLine($"usuario {nombrePersona1}, tu sueldo es menor que 3000, por ende, no debes abonar impuestos");
             }
 
             Console.WriteLine("----------------------------------------------");

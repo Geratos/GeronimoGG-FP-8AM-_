@@ -5,38 +5,44 @@
         static void Main(string[] args)
         {
             int numero1 = 90;
-            int numeroMath1 = -numero1;
-            int numeroMath2 = +numeroMath1;
-            int numeroMath3 = -numeroMath2;
+            int numero2 = -numero1;
+            int numero3 = +numero2;
+            int numero4 = -numero3;
 
-            Console.WriteLine(numero1 + " // " + numeroMath1 + " // " + numeroMath2 + " // " + numeroMath3);
+            Console.WriteLine(numero1 + " // " + numero2 + " // " + numero3 + " // " + numero4);
 
             //-Operadores aritmétricos-
             Console.WriteLine("---------------------------------------");
 
-            int numeroMath4 = 20 + 60;//suma
-            Console.WriteLine(numeroMath4);
-            int numeroMath5 = 686868 - 24564;//resta
-            Console.WriteLine(numeroMath5);
-            int numeroMath6 = 565 * 94;
-            Console.WriteLine(numeroMath6);
-            double numeroMath7 = 45439d / 3274d;//precision
-            Console.WriteLine(numeroMath7);
-            float numeroMath8 = (float)123439 / 3864;
-            Console.WriteLine(numeroMath8);
-            decimal numeroMath9 = (decimal)564757 / 1234567;//super precision
-            Console.WriteLine(numeroMath9);
-            decimal numeroMath10 = 7658576865m / 6464646m;
-            Console.WriteLine(numeroMath10);
+            int numero5 = 20 + 60;//suma
+            Console.WriteLine(numero5);
+
+            int numero6 = 686868 - 24564;//resta
+            Console.WriteLine(numero6);
+
+            int numero7 = 565 * 94;
+            Console.WriteLine(numero7);
+
+            double numero8 = 45439d / 3274d;//precision
+            Console.WriteLine(numero8);
+
+            float numero9 = (float)123439 / 3864;
+            Console.WriteLine(numero9);
+
+            decimal numero10 = (decimal)564757 / 1234567;//más precision
+            Console.WriteLine(numero10);
+
+            decimal numero11 = 7658576865m / 6464646m;
+            Console.WriteLine(numero11);
 
             //-Operadores de incremento y decremento-
             Console.WriteLine("---------------------------------------");
 
-            int numeroMath11 = ++numeroMath4;//incremento
-            Console.WriteLine(numeroMath11);
+            int numero12 = ++numero5;//incremento
+            Console.WriteLine(numero12);
 
-            int numeroMath12 = --numero1;//decremento
-            Console.WriteLine(numeroMath12);
+            int numero13 = --numero1;//decremento
+            Console.WriteLine(numero13);
 
             /*
             --numeroMath4;
@@ -46,35 +52,35 @@
             Console.WriteLine(numero1);
             */
 
-            numeroMath1 += 125; //asignación positiva
-            Console.WriteLine(numeroMath1);
+            numero2 += 125; //asignación positiva
+            Console.WriteLine(numero2);
 
-            numeroMath2 -= 225; //asignación negativa
-            Console.WriteLine(numeroMath2);
+            numero3 -= 225; //asignación negativa
+            Console.WriteLine(numero3);
 
-            numeroMath3 *= 100; //asignacion multiplicativa
-            Console.WriteLine(numeroMath3);
+            numero4 *= 100; //asignacion multiplicativa
+            Console.WriteLine(numero4);
 
-            numeroMath4 /= 2; //asignacion fraccionaria
-            Console.WriteLine(numeroMath4);
+            numero5 /= 2; //asignacion fraccionaria
+            Console.WriteLine(numero5);
 
             //orden de evaluación de operadores numericos
             Console.WriteLine("---------------------------------------");
 
-            float numeroMath13 = 17f * 7695f / 1.5f;
-            Console.WriteLine(numeroMath13);
+            float numero14 = 17f * 7695f / 1.5f;
+            Console.WriteLine(numero14);
 
-            float numeroMath14 = 7695f / 1.5f * 17f;
-            Console.WriteLine(numeroMath14);
+            float numero15 = 7695f / 1.5f * 17f;
+            Console.WriteLine(numero15);
 
-            float numeroMath15 = (17f * 7695f) / 1.5f;
-            Console.WriteLine(numeroMath15);
+            float numero16 = (17f * 7695f) / 1.5f;
+            Console.WriteLine(numero16);
 
-            float numeroMath16 = 17f + 7695f * 1.5f;
-            Console.WriteLine(numeroMath16);
+            float numero17 = 17f + 7695f * 1.5f;
+            Console.WriteLine(numero17);
 
-            float numeroMath17 = 176f + 3332f * (575f - 3f);
-            Console.WriteLine(numeroMath17);
+            float numero18 = 176f + 3332f * (575f - 3f);
+            Console.WriteLine(numero18);
 
             //operadores lógicos
             Console.WriteLine("---------------------------------------");
