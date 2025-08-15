@@ -17,7 +17,7 @@ namespace _1.InicioVisualStudio
             //no puedo cambiar el valor de iva pq es una constante
             Console.Write(" pinga\n ");
             Console.Write("\t" +   nombre + " " + apellidos + " " + iva);
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }
