@@ -55,7 +55,7 @@
                 default:
                     Console.WriteLine("ingrese un dia valido no sea bobito");
 
-                    break;
+                    break; 
 
             }
             
