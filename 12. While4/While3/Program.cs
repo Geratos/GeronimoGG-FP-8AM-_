@@ -16,7 +16,7 @@
 
                 Console.WriteLine("-------------------------------------------------------------------");
             }
-            Console.WriteLine($"La suma de los números impares hasta el 99 es: {suma}"); 
+            Console.WriteLine($"La suma de los números impares hasta el 99 es: {suma}");
         }
     }
 }
