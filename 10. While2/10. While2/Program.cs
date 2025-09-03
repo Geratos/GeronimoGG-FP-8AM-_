@@ -18,7 +18,7 @@
                 factorial++;
             }
 
-            Console.WriteLine("el factorial de " + numero + " es: " + resultado); 
+            Console.WriteLine("el factorial de " + numero + " es: " + resultado);
         }
     }
 }
