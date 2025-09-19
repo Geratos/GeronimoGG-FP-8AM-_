@@ -30,7 +30,7 @@
             }
             else if (nota > 6)
             {
-                 Console.WriteLine("El alumno " + nombre + " ha aprobado con una nota de " + nota);
+                 Console.WriteLine("El alumno " + nombre + " ha aprobado con una nota de " + nota); 
             }
             else
             {
