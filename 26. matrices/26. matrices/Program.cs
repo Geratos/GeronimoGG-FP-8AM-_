@@ -54,8 +54,6 @@
                 //Rango de la matriz
                 Console.WriteLine(caracteres.Length);
 
-
-
             }
         }
     }
